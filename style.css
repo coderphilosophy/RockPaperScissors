@@ -1,0 +1,39 @@
+body{
+    font-family: 'Diphylleia', serif;
+    color: #EEE2DE;
+    background-color: #2B2A4C;
+    font-size: 24px;
+}
+
+button{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #EEE2DE;
+    background-color: #B31312;
+    margin: 20px 10px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: #EA906C;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.final{
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 25px 0 25px 0;
+}

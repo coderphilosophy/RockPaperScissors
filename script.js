@@ -33,7 +33,7 @@ function playround(playerchoice){
             if((p == "rock" && c == "scissors") || (p == "scissors" 
                     && c == "paper") || (p == "paper" && c == "rock")){
                 playercount++;
-                score.textContent = `Player: ${playercount} Computer: ${computercount}`;
+                score.textContent = `Player: ${playercount}     Computer: ${computercount}`;
                 result.textContent = `Player wins! ${p} beats ${c}`;
             }
             else if(p == c){
@@ -41,7 +41,7 @@ function playround(playerchoice){
             }
             else{
                 computercount++;
-                score.textContent = `Player: ${playercount} Computer: ${computercount}`;
+                score.textContent = `Player: ${playercount}     Computer: ${computercount}`;
                 result.textContent = `Computer wins! ${c} beats ${p}`;
             }
         }
@@ -57,7 +57,7 @@ function playround(playerchoice){
             tryagain.addEventListener('click', () => {
                 playercount = 0;
                 computercount = 0;
-                score.textContent = `Player: ${playercount} Computer: ${computercount}`;
+                score.textContent = `Player: ${playercount}     Computer: ${computercount}`;
                 result.textContent = ``;
                 final.textContent = ``;
 
